@@ -152,7 +152,7 @@ header{
 }
 .aboutus p{
     font-family: "Dongle-regular";
-    line height: 1;
+    line-height: 1;
     font-size: 1.5rem;
     
 }
@@ -173,7 +173,7 @@ header{
 .team-member h4{
     font-family: "Dongle-bold";
     font-size: 2rem;
-    line height: 1;
+    line-height: 1;
 
 }
 
@@ -181,5 +181,105 @@ header{
     font-family: "Dongle-regular";
     font-size: 1.6rem;
 }
+
+.contactus
+{
+    padding:80px;
+    text-align: center;
+    background-color: #F7F7F7;
+   
+    
+}
+
+.con{
+    
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.contactinfo li{
+    margin:0 20px 0 0;
+    font-family: "Dongle-regular";
+    
+}
+.contactus h3{
+    font-family: "Dongle-bold";
+    font-size: 3rem;
+}
+.contactinfo p{
+    font-family: "Dongle-regular";
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contactinfo li a{
+    text-decoration: none;
+    color: black;
+
+}
+.contactinfo{
+    margin-right: 10px;
+}
+
+.form
+{
+    width:100%
+}
+
+input,textarea{
+    width:70%;
+    padding: 10px;
+    margin: 11px 0;
+    border: none;
+    box-shadow: 0 0 5% rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: "Dongle-regular";
+    font-size: 1.4rem;
+    
+}
+textarea{
+    height: 150px;
+}
+
+.form button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #ff7f50;
+    padding: 8px 50px;
+    border-radius: 50px;
+    font-family: "Dongle-light";
+    font-size: 1.6rem;
+    transition: all ease 0.3s;
+   cursor: pointer;
+}
+.form button:hover{
+    background-color: black;
+}
+footer
+{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.social a
+{
+    color : #fff;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+footer p{
+    font-family: "Dongle-regular";
+    font-size: 1.6rem;
+}
+
 
 
